@@ -16,3 +16,4 @@ git-diff :
 	@printf '%s\n%s\n%s\n' "\`\`\`diff" "$$(git diff --no-index --diff-algorithm=patience --ignore-space-at-eol ${before} ${after})" "\`\`\`" > diffs/${out}.md
 
 repro :; forge flatten lib/aave-v3-core/contracts/protocol/configuration/PoolAddressesProvider.sol
+counter-repro :; forge inspect lib/aave-v3-core/contracts/protocol/configuration/PoolAddressesProvider.sol:PoolAddressesProvider storage-layout --pretty
