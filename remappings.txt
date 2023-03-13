@@ -1,0 +1,4 @@
+aave-v3-core/=lib/aave-v3-core/
+@aave/core-v3/=lib/aave-v3-core/
+aave-v3-periphery/=lib/aave-v3-periphery/
+@aave/periphery-v3/=lib/aave-v3-periphery/
